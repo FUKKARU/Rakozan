@@ -19,7 +19,7 @@ namespace Test
 
         void Update()
         {
-            haizuri.Tf.position += Vector3.right * speed * Time.deltaTime;
+            haizuri.Tf.position += speed * Time.deltaTime * Vector3.right;
         }
     }
 }
