@@ -22,7 +22,7 @@ namespace Enemy.Getter
         [SerializeField] GameObject model;
         public GameObject Model => model;
 
-        [SerializeField] GameObject smokes;
-        public GameObject Smokes => smokes;
+        [SerializeField] GameObject smoke;
+        public GameObject Smoke => smoke;
     }
 }
