@@ -1004,6 +1004,7 @@ Transform:
   - {fileID: 9017907989494149316}
   - {fileID: 7793790860208619496}
   - {fileID: 7426419526062079158}
+  - {fileID: 5617625468418828793}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &724826857169146360
@@ -1839,7 +1840,7 @@ GameObject:
   - component: {fileID: 1427512209154917833}
   - component: {fileID: 5480701340579108582}
   m_Layer: 0
-  m_Name: AdjustingGround
+  m_Name: _AdjustingGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2093,3 +2094,77 @@ Transform:
   - {fileID: 4854045113947979839}
   m_Father: {fileID: 8007731811905048352}
   m_LocalEulerAnglesHint: {x: 237.033, y: 4.0059967, z: -21.190979}
+--- !u!1001 &8998291262429268403
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2369002342541739615}
+    m_Modifications:
+    - target: {fileID: 1826348090350432739, guid: daf498c3e8230ea4595b10564b09630d,
+        type: 3}
+      propertyPath: m_Name
+      value: Haizuri_smoke_particle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3536885519161204810, guid: daf498c3e8230ea4595b10564b09630d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3536885519161204810, guid: daf498c3e8230ea4595b10564b09630d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.207
+      objectReference: {fileID: 0}
+    - target: {fileID: 3536885519161204810, guid: daf498c3e8230ea4595b10564b09630d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.204
+      objectReference: {fileID: 0}
+    - target: {fileID: 3536885519161204810, guid: daf498c3e8230ea4595b10564b09630d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3536885519161204810, guid: daf498c3e8230ea4595b10564b09630d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3536885519161204810, guid: daf498c3e8230ea4595b10564b09630d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 3536885519161204810, guid: daf498c3e8230ea4595b10564b09630d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3536885519161204810, guid: daf498c3e8230ea4595b10564b09630d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3536885519161204810, guid: daf498c3e8230ea4595b10564b09630d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3536885519161204810, guid: daf498c3e8230ea4595b10564b09630d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: daf498c3e8230ea4595b10564b09630d, type: 3}
+--- !u!4 &5617625468418828793 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3536885519161204810, guid: daf498c3e8230ea4595b10564b09630d,
+    type: 3}
+  m_PrefabInstance: {fileID: 8998291262429268403}
+  m_PrefabAsset: {fileID: 0}
